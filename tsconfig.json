@@ -1,0 +1,20 @@
+// TypeScript 세 파일을 읽어 js 폴더에 JavaScript로 생성.
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "none",
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "strict": true, // 엄격한 타입 검사
+    "noEmitOnError": true, // 오류 발생 시 출력 중단 설정
+    "outDir": "js" // 출력 폴더
+  },
+  // 입력할 세 파일
+  "files": [
+    "operations.ts",
+    "calculator.ts",
+    "app.ts"
+  ]
+}
